@@ -7,8 +7,8 @@ import Button from 'react-bootstrap/Button'
 function Buttons(){
     return(
         <>
-  <Button variant="outline-primary">Add Ingredients</Button>{' '}
-  <Button variant="outline-primary">Add Recipe</Button>{' '}
+  <Button >Add Ingredients</Button>{' '}
+  <Button >Add Recipe</Button>{' '}
     </>
     )
 }

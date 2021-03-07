@@ -9,7 +9,7 @@ function Navibar() {
     return (
         <>
             <Navbar bg="primary" variant="dark">
-                <Navbar.Brand href="#home">Donki</Navbar.Brand>
+                <Navbar.Brand href="#home">DonkiHood</Navbar.Brand>
                 <img
                     src="/images/icon3.png"
 
