@@ -14,11 +14,12 @@ function Hero() {
             <img src={'../images/store.jpg'} className='heroimg' width="100%" height="100%" />
             <div className='hero-container'>
                 {/* <source src="reactki/public/videos/Song.mp3" type="audio/mpeg"></source> */}
-                <h1>Welcome to DonkiHood</h1>
+                <h1><span> Welcome to DonkiHood </span></h1>
                 <Buttons classname= 'herobutton'/>
             </div>
             <div className = 'overlay'></div>
         </div>
+        
     )
 }
 
