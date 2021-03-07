@@ -1,8 +1,12 @@
+/* Donki Yellow rgba(254,201,1,255); */
+/* Donki Blue rgba(0,122,255,255) */
+
 body{
     width: 100%;
     height : auto;
     overflow: hidden;
     background-color : rgba(254,201,1,255);
+    
     
 }
 

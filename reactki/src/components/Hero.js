@@ -15,7 +15,7 @@ function Hero() {
             <div className='hero-container'>
                 {/* <source src="reactki/public/videos/Song.mp3" type="audio/mpeg"></source> */}
                 <h1><span> Welcome to DonkiHood </span></h1>
-                <Buttons classname= 'herobutton'/>
+                <span> <Buttons classname= 'herobutton'/> </span>
             </div>
             <div className = 'overlay'></div>
         </div>

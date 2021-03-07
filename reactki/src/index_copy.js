@@ -7,15 +7,14 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Buttons from './components/Button'
 import Hero from './components/Hero'
-import Ingredientsdropdown from './components/Ingredientsdropdown';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Dropdown } from 'react-bootstrap';
-// import Audio from './components/Audio'
-// testing page
 
+// import Audio from './components/Audio'
+
+/// this would be the originial index.js / homepage
 ReactDOM.render(
     <div>
       <App />
-      <Ingredientsdropdown/>
+      <Hero/>
     </div>,
 
 
