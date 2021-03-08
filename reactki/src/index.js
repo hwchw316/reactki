@@ -8,6 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Buttons from './components/Button'
 import Hero from './components/Hero'
 import Ingredientsdropdown from './components/Ingredientsdropdown';
+import Ingredientsform from './ingredients_form_page'
 import { Navbar, Nav, NavDropdown, Form, FormControl, Dropdown } from 'react-bootstrap';
 // import Audio from './components/Audio'
 // testing page
@@ -16,6 +17,7 @@ ReactDOM.render(
     <div>
       <App />
       <Ingredientsdropdown/>
+      <Ingredientsform/>
     </div>,
 
 
