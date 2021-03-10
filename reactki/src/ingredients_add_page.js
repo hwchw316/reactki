@@ -7,6 +7,8 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Buttons from './components/Button'
 import Hero from './components/Hero'
+import Ingreditentsdropdown from './components/Ingredientsdropdown'
+import Ingredientsform from './ingredients_form'
 
 // import Audio from './components/Audio'
 
@@ -14,7 +16,7 @@ import Hero from './components/Hero'
 ReactDOM.render(
     <div>
       <App />
-      <Hero/>
+      <Ingredientsform/>
     </div>,
 
 
