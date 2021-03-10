@@ -3,288 +3,51 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Ingredientsdropdown from './components/Ingredientsdropdown';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Dropdown, Col,rows } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Dropdown, Col, rows } from 'react-bootstrap';
 
 
 function Ingredientsform() {
     return (
         <>
-            <h1>Share your love, your wisdom <br/> and most importantly, <br/> Your Recipe ! </h1>
-            <br/>
-            <br/>
+            <h1>Found something that is <br /> not here ? <br /> Add to it ! </h1>
+            <br />
+            <br />
             < Form>
                 <Form.Row controlId="formGridAddress1">
                     <Form.Group as={Col} >
-                        <Form.Label>Title</Form.Label>
+                        <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="e.g. Beef Katsu Don" />
-
-                        <Form.Label>Sub Title</Form.Label>
+            
+                        <Form.Label>Price</Form.Label>
                         <Form.Control type="text" placeholder="e.g. Easy to Prepare !" />
 
                         <Form.Label>Image Url</Form.Label>
                         <Form.Control type="text" placeholder="https://bit.ly/3sXqnZo" />
+
+                        <Form.Group  controlId="formGridState">
+                            <Form.Label>Ingredients Category</Form.Label>
+                            <Form.Control as="select" >
+                                <option>Meat</option>
+                                <option>Fish</option>
+                                <option>Daily</option>
+                                <option>Fruits & Vegetables</option>
+                                <option>Noodles & Condiments</option>
+                            </Form.Control>
+                        </Form.Group>
                     </Form.Group>
 
-                     <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Ingredients</Form.Label>
-                    <Form.Control placeholder='e.g. Rice, Eggs, Beef' as="textarea" rows={7} />
-                </Form.Group>
+                    <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
+                        <Form.Label>Image Preview</Form.Label>
+                        <Form.Control placeholder='e.g. Rice, Eggs, Beef' as="textarea" rows={10} />
+                    </Form.Group>
 
                 </Form.Row>
-
-            
-
-                <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Recipe</Form.Label>
-                    <Form.Control placeholder='Step 1 : Season the beef with salt and pepper.
-                     Coat the beef with flour, beaten egg (use 1 egg), and the panko in that order.' as="textarea" rows={2} />
-                      <br/>
-                      <Form.Control placeholder='Step
-                      2:  Heat 2-3 cups oil in a frying pan and shallow-fry the panko-coated beef until 
-                      golden brown. Take out the beef and drain extra oil on a paper towel
-                      ' as="textarea" rows={2} />
-                         <br/>
-                      <Form.Control placeholder='Step
-                      3:  Fry an egg with onions and tempura sauce.
-                      ' as="textarea" rows={2} />
-                         <br/>
-                      <Form.Control placeholder='Step
-                      4: Put rice into ricebowl before added the beef in.
-                      ' as="textarea" rows={2} />
-                         <br/>
-                      <Form.Control placeholder='Step
-                      5:  Volia ! Ready to serve
-                      ' as="textarea" rows={2} />
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')
-);
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')
-);
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')
-);
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')
-);
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Buttons from './components/Button'
-import Hero from './components/Hero'
-import Ingreditentsdropdown from './components/Ingredientsdropdown'
-import Ingredientsform from './ingredients_form'
-
-// import Audio from './components/Audio'
-
-/// this would be the originial index.js / homepage
-ReactDOM.render(
-    <div>
-      <App />
-   
-      <Ingredientsform/>
-    </div>,
-
-
-
-  document.getElementById('root')
-
-                </Form.Group>
-
                 <Button variant="primary" type="submit">
                     Submit
+  </Button>
+
+                <Button variant="primary" type="back">
+                    Back to Homepage
   </Button>
             </Form>
         </>
