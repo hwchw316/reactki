@@ -1,0 +1,45 @@
+/* Donki Yellow rgba(254,201,1,255); */
+/* Donki Blue rgba(0,122,255,255) */
+
+body{
+    /* width: 100vh;
+    height : auto;
+    overflow: hidden; */
+    background-color : rgba(254,201,1,255);
+    
+    
+}
+
+.hero-wrapper{
+    width: 100%;
+    position: relative;
+    
+    
+}
+/* .overlay {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.404);
+    margin-top: -10%;
+    margin-left: 25%;
+    z-index: -1;
+} */
+.hero-container{
+    width: 100%;
+    text-align: center;
+    margin-top: -35%;
+    z-index: 2;
+    background-color : rgba(254,201,1,255);
+   
+}
+
+.hero-container > h1 {
+    color: rgba(216, 224, 92, 0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif,cursive;
+}
+
+.hero-container > h1 > span {
+    background-color: rgba(0,0,0,0.8);    
+}
+
