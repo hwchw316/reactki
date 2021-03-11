@@ -16,6 +16,11 @@ body{
     
     
 }
+
+.inline{
+    display: inline;
+    float:left;
+}
 /* .overlay {
     width: 50%;
     height: 50%;

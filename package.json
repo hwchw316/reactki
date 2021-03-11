@@ -1,0 +1,19 @@
+{
+  "name": "reactki",
+  "description": "#Commands npx create-react-app reactki npm install -g nodemon npm start npm install bootstrap npm install react-bootstrap bootstrap npm i react-audio-element npm install --save react-audio-player npm install react-router-dom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwchw316/reactki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwchw316/reactki/issues"
+  },
+  "homepage": "https://github.com/hwchw316/reactki#readme"
+}

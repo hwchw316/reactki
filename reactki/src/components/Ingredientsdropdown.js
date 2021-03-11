@@ -2,63 +2,55 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Dropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, InputGroup, Dropdown, Col, rows } from 'react-bootstrap';
 
 
 function Ingredientsdropdown() {
     return (
         <>
-        <div className = 'dropdown'>
-            <Dropdown>
-                <Dropdown.Toggle variant="primary" id="dropdown-basic">
-                    Price
-  </Dropdown.Toggle>
+            <br />
+            <div className='dropdown'>
+                <Form>
+                    <Form.Row className="align-items-center">
+                        <Col sm={3} className="my-1">
+                            <Form.Label >Sort By</Form.Label>
+                            <Form.Label htmlFor="inlineFormInputGroupUsername" srOnly >Sort By</Form.Label>
+                            <Form.Control as="select" defaultValue="None">
+                                <option>None</option>
+                                <option>Price Low to High</option>
+                                <option>Price High to Low</option>
+                            </Form.Control>
+                        </Col>
 
-                <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Low to High</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1">High to Low</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
 
-                        <Dropdown>
-                <Dropdown.Toggle variant="primary" id="dropdown-basic">
-                    Meat
-  </Dropdown.Toggle>
+                        <Col sm={3} className="my-1">
+                            <Form.Label >Category</Form.Label>
+                            <Form.Label htmlFor="inlineFormInputGroupUsername" srOnly >Category</Form.Label>
+                            <Form.Control as="select" defaultValue="None">
+                                <option>None</option>
+                                <option>Meat</option>
+                                <option>Fish</option>
+                                <option>Daily</option>
+                                <option>Fruits & Vegetables</option>
+                                <option>Noodles & Condinments</option>
+                            </Form.Control>
+                        </Col>
+                        <Col sm={3} className="my-1">
+                            <Form.Label >Search </Form.Label>
+                            <InputGroup>
+                                <FormControl id="inlineFormInputGroupUsername" placeholder="Enter Search" />
+                            </InputGroup>
+                        </Col>
+                        <Col sm={3} className="my-1">
+                            <Form.Label ></Form.Label>
+                            <InputGroup>
+                                   <Button type="submit" htmlFor="inlineFormInputGroupUsername" srOnly>Go</Button>
+                            </InputGroup>
 
-                <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-3">All</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1">Beef</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Chicken</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Pork</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
-                        <Dropdown>
-                <Dropdown.Toggle variant="primary" id="dropdown-basic">
-                    Fish
-  </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                     <Dropdown.Item href="#/action-1">All</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1">Salmon</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Unagi</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Saba/Mackerel</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Others</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
-                        <Dropdown>
-                <Dropdown.Toggle variant="primary" id="dropdown-basic">
-                    Noodles & Condinments
-  </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">All</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1">Noodles</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Sauces</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Seasoning</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Paste</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
-        </div>
+                        </Col>
+                    </Form.Row>
+                </Form>
+            </div>
         </>
     );
 }
