@@ -12,8 +12,8 @@ function Ingredientsdropdown() {
             <div className='dropdown'>
                 <Form>
                     <Form.Row className="align-items-center">
-                        <Col sm={3} className="my-1">
-                            <Form.Label >Sort By</Form.Label>
+                        <Col sm={2} className="my-1">
+                            <Form.Label >Ingredients Sort By</Form.Label>
                             <Form.Label htmlFor="inlineFormInputGroupUsername" srOnly >Sort By</Form.Label>
                             <Form.Control as="select" defaultValue="None">
                                 <option>None</option>
@@ -23,7 +23,7 @@ function Ingredientsdropdown() {
                         </Col>
 
 
-                        <Col sm={3} className="my-1">
+                        <Col sm={2} className="my-1">
                             <Form.Label >Category</Form.Label>
                             <Form.Label htmlFor="inlineFormInputGroupUsername" srOnly >Category</Form.Label>
                             <Form.Control as="select" defaultValue="None">
@@ -35,6 +35,22 @@ function Ingredientsdropdown() {
                                 <option>Noodles & Condinments</option>
                             </Form.Control>
                         </Col>
+
+
+                        <Col sm={2} className="my-1">
+                            <Form.Label >Price</Form.Label>
+                            <Form.Label htmlFor="inlineFormInputGroupUsername" srOnly ></Form.Label>
+                            <Form.Control as="select" defaultValue="None">
+                                <option>None</option>
+                                <option> Under $10 </option>
+                                <option> $10 - $50</option>
+                                <option> $50- $100</option>
+                                <option> Over $100</option>
+  
+                            </Form.Control>
+                        </Col>
+
+
                         <Col sm={3} className="my-1">
                             <Form.Label >Search </Form.Label>
                             <InputGroup>

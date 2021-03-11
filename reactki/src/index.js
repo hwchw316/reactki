@@ -10,6 +10,7 @@ import Hero from './components/Hero'
 import Recipesform from './recipe_form'
 import Ingredientsform from './ingredients_form'
 import Ingredientsdropdown from './components/Ingredientsdropdown';
+import Recipedropdown from './components/Recipedropdown';
 
 
 // import Audio from './components/Audio'
@@ -18,7 +19,9 @@ import Ingredientsdropdown from './components/Ingredientsdropdown';
 ReactDOM.render(
     <div>
       <App />
+      <Recipedropdown/>
       <Ingredientsdropdown/>
+      
     </div>,
 
 
