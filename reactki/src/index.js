@@ -11,6 +11,8 @@ import Recipesform from './recipe_form'
 import Ingredientsform from './ingredients_form'
 import Ingredientsdropdown from './components/Ingredientsdropdown';
 import Recipedropdown from './components/Recipedropdown';
+import Cards from './components/Cards';
+import { Navbar, Nav, NavDropdown, Card,Row, Form, FormControl, InputGroup, Dropdown, Col, rows } from 'react-bootstrap';
 
 
 // import Audio from './components/Audio'
@@ -21,6 +23,21 @@ ReactDOM.render(
       <App />
       <Recipedropdown/>
       <Ingredientsdropdown/>
+      <Row>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+
+          <Cards/><Cards/>
+          <Cards/>
+          <Cards/>
+
+          <Cards/>
+    </Row>
+
       
     </div>,
 
